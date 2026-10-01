@@ -16,6 +16,8 @@ Cuando termina de analizar el monto introducido, este dará 4 resultados, los cu
     2: Descuento aplicado
     3: Ahorro obtenido
     4: Total a pagar
+# Requisitos
+Tener Python en la version 3.14
 
 # ¿Cómo se activa?
 1. Abre una terminal o consola.
@@ -29,7 +31,7 @@ python calcular_descuento_basico.py
 4. Introduce el importe cuando el programa te lo pida.
 
 # Contribuyentes y fecha
-Nicolás Aarón
+Nicolás Aarón y 
 Pau
 30-9-2026
 # No se han puesto los apellidos por motivos de privacidad.
