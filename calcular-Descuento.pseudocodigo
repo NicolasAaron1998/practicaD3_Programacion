@@ -1,0 +1,32 @@
+Algoritmo DescuentoTienda
+    // Declaración e inicialización
+    Definir importe_compra, descuento, porcentaje, importe_final como Real
+    
+    // Entradas
+    Escribir "Introduce el importe de la compra (€): "
+    Leer importe_compra
+    
+    // Control / Validación
+    Si importe_compra < 0 Entonces
+        Escribir "Error: El importe no puede ser negativo."
+    Si no
+        // Proceso y toma de decisiones
+        Si importe_compra >= 300 Entonces
+            porcentaje <- 0.15
+        Si no
+            Si importe_compra >= 100 Entonces
+                porcentaje <- 0.10
+            Si no
+                porcentaje <- 0.00
+            Fin Si
+        Fin Si
+        
+        descuento <- importe_compra * porcentaje
+        importe_final <- importe_compra - descuento
+        
+        // Salidas
+        Escribir "Descuento aplicado: ", porcentaje * 100, "%"
+        Escribir "Ahorro: ", descuento, " €"
+        Escribir "Importe final a pagar: ", importe_final, " €"
+    Fin Si
+Fin Algoritmo
