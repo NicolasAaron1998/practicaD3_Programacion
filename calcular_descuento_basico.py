@@ -1,5 +1,5 @@
 # Cabecera
-# Autor: Nicolas Aaron
+# Autor: Nicolas Aaron y Pau
 # Fecha: 30/09/2026
 
 # Constantes
